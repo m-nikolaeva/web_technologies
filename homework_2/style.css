@@ -1,46 +1,62 @@
 html {
-    background-color: rgba(255, 228, 196, 0.848);
-    font-size: 35px;
-    font-family: 'Adana script', sans-serif;
+	background-color: rgba(255, 228, 196, 0.848);
+	font-size: 35px;
+	font-family: 'Adana script', sans-serif;
 	line-height: 1.2em;
 }
 
 h1 {
-   color: rgba(79, 6, 79, 0.833);
-   font-size: 70px;
-   font-family: 'mr_DopestyleG', sans-serif;
+	color: rgba(79, 6, 79, 0.833);
+	font-size: 70px;
+	font-family: 'mr_DopestyleG', sans-serif;
 }
 
 h2 {
-    color: rgb(121, 11, 165);
+	color: rgb(121, 11, 165);
 	display: inline;
-  	border-bottom: 3px solid #3e128f;
+	border-bottom: 3px solid #3e128f;
 }
 
 h3 {
 	color: rgba(108, 8, 202, 0.864);
 }
 
+img {
+	width: 400px;
+}
+
 a:hover {
-    color: rgb(58, 146, 247);
+	color: rgb(58, 146, 247);
 }
 
 @font-face {
 	font-family: 'mr_DopestyleG';
-	src: url('fonts/mr_dopestyleg.eot'); /* IE 9 Compatibility Mode */
-	src: url('fonts/mr_dopestyleg.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('fonts/mr_dopestyleg.woff2') format('woff2'), /* Super Modern Browsers */
-		url('fonts/mr_dopestyleg.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('fonts/mr_dopestyleg.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('fonts/mr_dopestyleg.svg#mr_dopestyleg') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('fonts/mr_dopestyleg.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('fonts/mr_dopestyleg.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('fonts/mr_dopestyleg.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('fonts/mr_dopestyleg.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('fonts/mr_dopestyleg.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('fonts/mr_dopestyleg.svg#mr_dopestyleg') format('svg');
+	/* Chrome < 4, Legacy iOS */
 }
 
 @font-face {
 	font-family: 'Adana script';
-	src: url('fonts/adana_script.eot'); /* IE 9 Compatibility Mode */
-	src: url('fonts/adana_script.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('fonts/adana_script.woff2') format('woff2'), /* Super Modern Browsers */
-		url('fonts/adana_script.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('fonts/adana_script.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('fonts/adana_script.svg#adana_script') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('fonts/adana_script.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('fonts/adana_script.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('fonts/adana_script.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('fonts/adana_script.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('fonts/adana_script.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('fonts/adana_script.svg#adana_script') format('svg');
+	/* Chrome < 4, Legacy iOS */
 }
