@@ -4,9 +4,9 @@
 // Где вместо 21 и 69.8 должны быть подставлены соответствующие значения, которые были получены ранее.
 // Примечания: Пользователь всегда вводит корректное число.
 
-const a = Number.parseFloat(prompt("Введите температуру в градусах Цельсия: "));
-alert(`Температура по Цельсию: ${a}, по Фаренгейту: ${(convertCelsToFahr(a)).toFixed(1)}`);
+const celsium = Number.parseFloat(prompt("Введите температуру в градусах Цельсия: "));
+alert(`Температура по Цельсию: ${celsium}, по Фаренгейту: ${(convertCelsToFahr(celsium)).toFixed(1)}`);
 
-function convertCelsToFahr(number1) {
-    return ((9 / 5) * number1 + 32);
+function convertCelsToFahr(usercelsium) {
+    return ((9 / 5) * usercelsium + 32);
 }
